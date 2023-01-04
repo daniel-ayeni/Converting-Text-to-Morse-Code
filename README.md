@@ -1,2 +1,5 @@
-# Converting-Text-to-Morse-Code
-This code takes in a string of text as input and converts it to Morse code by mapping each character to its corresponding Morse code representation using a dictionary. The resulting Morse code is returned as a string, with spaces separating each Morse code character.
+This code is a Python function that converts text input from a user into Morse code. The function first defines a dictionary that maps each letter of the alphabet and each number to its corresponding representation in Morse code. The function then initializes an empty string called "morse_text" that will be used to store the converted text.
+
+Next, the function iterates through each character in the input text. For each character, it converts the character to uppercase and checks if it is present in the Morse code dictionary. If it is present, the function appends the Morse code representation of the character to the "morse_text" string followed by a space. If the character is not present in the dictionary, the function simply appends the character itself to the "morse_text" string followed by a space.
+
+Finally, the function returns the "morse_text" string. The code also includes a section at the end where the user is prompted to enter text to be converted, the text is converted using the "to_morse" function, and the resulting Morse code is printed to the console.
